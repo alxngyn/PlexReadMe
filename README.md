@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## Plextopia Setup
+ 
+1. Go to https://app.plex.tv
+2. Select your user name and enter login credentials to sign in
 
-You can use the [editor on GitHub](https://github.com/alxngyn/PlexReadMe/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+3. On the top right of the screen, click on the ‘settings’ icon
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Pic](https://storage.googleapis.com/plextopia/PlexReadMe/Capture0.PNG)
 
-### Markdown
+4. Click on “Online Media Sources” on the left
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Pic2](https://storage.googleapis.com/plextopia/PlexReadMe/Capture.PNG)
 
-```markdown
-Syntax highlighted code block
+5. Disable all of the choices
 
-# Header 1
-## Header 2
-### Header 3
+![Pic3](https://storage.googleapis.com/plextopia/PlexReadMe/Capture2.PNG)
 
-- Bulleted
-- List
+6. Go back home
 
-1. Numbered
-2. List
+![Pic4](https://storage.googleapis.com/plextopia/PlexReadMe/Capture3.PNG)
 
-**Bold** and _Italic_ and `Code` text
+7. Go to ”More > “
 
-[Link](url) and ![Image](src)
-```
+![Pic7](https://storage.googleapis.com/plextopia/PlexReadMe/capture4.PNG)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+8. Pin all of the “Plextopia” libraries
 
-### Jekyll Themes
+![Pic5](https://storage.googleapis.com/plextopia/PlexReadMe/Capture5.PNG)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/alxngyn/PlexReadMe/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+9. Then you are all set up to watch Plextopia media now.
+10. Your home dashboard should now be showing content specifically from the server you have access to
