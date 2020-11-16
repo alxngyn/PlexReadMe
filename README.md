@@ -1,11 +1,11 @@
 Plextopia
 
 ## Status
-https://plexstatus.alxngyn.com/
+[https://plexstatus.alxngyn.com/](https://plexstatus.alxngyn.com/)
 
 
 ## Request
-http://request.alxngyn.com/
+[http://request.alxngyn.com/](http://request.alxngyn.com/)
 
 
 ## How-to: Disabling Ad-Supported Plex Media
