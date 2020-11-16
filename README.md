@@ -1,4 +1,14 @@
-## Plextopia Setup
+# Plextopia
+
+## Status
+https://plexstatus.alxngyn.com/
+
+
+## Request
+http://request.alxngyn.com/
+
+
+## How-to: Disabling Ad-Supported Plex Media
  
 1. Go to https://app.plex.tv
 2. Select your user name and enter login credentials to sign in
