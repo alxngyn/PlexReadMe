@@ -1,0 +1,33 @@
+[Unit]
+Description=RClone mount of users remote %i using filesystem permissions
+Documentation=http://rclone.org/docs/
+After=network-online.target
+
+[Service]
+Type=notify
+User=alex
+Environment=MOUNT_DIR="/home/alex/seed_ftp"
+
+#Check that rclone is installed
+ExecStartPre=/usr/bin/test -x /usr/bin/rclone
+
+#Check the mount directory
+ExecStartPre=/usr/bin/test -d "${MOUNT_DIR}"
+ExecStartPre=/usr/bin/test -w "${MOUNT_DIR}"
+
+#Mount rclone fs
+ExecStart=/usr/bin/rclone mount seed_ftp: "${MOUNT_DIR}" \
+		--config=/home/alex/.config/rclone/rclone.conf \
+		--allow-other \
+		--log-file "/home/alex/logs_seed_ftp.log" \
+		--log-level NOTICE 
+
+#Unmount rclone fs
+ExecStop=/bin/fusermount -uz "${MOUNT_DIR}"
+
+#Restart info
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target
