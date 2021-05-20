@@ -1,7 +1,7 @@
 Plextopia
 
-## Status
-[https://plexstatus.alxngyn.com/](https://plexstatus.alxngyn.com/)
+## Status Page
+[https://stats.uptimerobot.com/3OJVlsmVjE](https://stats.uptimerobot.com/3OJVlsmVjE)
 
 
 ## Request
